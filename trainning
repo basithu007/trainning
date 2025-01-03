@@ -24,3 +24,68 @@ public class Main
 		System.out.println("The sum of "+num1+" and "+num2+" is : "+(num1+num2));
 	}
 }
+4.Getting user input and addition of two integer number
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	   int num1,num2;
+	   Scanner scanner = new Scanner(System.in);
+	   num1 = scanner.nextInt();
+	   num2 = scanner.nextInt();
+	   System.out.println("The sum of "+num1+" and "+num2+" is : "+(num1+num2));
+	}
+}
+
+5.Getting user input and addition of two float number
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	   float num1,num2;
+	   Scanner obj = new Scanner(System.in);
+	   num1 = obj.nextFloat();
+	   num2 = obj.nextFloat();
+	   System.out.println("The sum of "+num1+" and "+num2+" is : "+(num1+num2));
+	}
+}
+
+6.Getting user input and addition of two Double number
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	   double num1,num2;
+	   Scanner obj = new Scanner(System.in);
+	   num1 = obj.nextDouble();
+	   num2 = obj.nextDouble();
+	   System.out.println("The sum of "+num1+" and "+num2+" is : "+(num1+num2));
+	}
+}
+
+7.Getting User name as input and display it
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	   String name;
+	   Scanner obj = new Scanner(System.in);
+	   
+	   name = obj.next();
+	   System.out.println("My name is : "+name);
+	}
+}
+
+
+8.Getting User message as input and display it
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	   String msg;
+	   Scanner obj = new Scanner(System.in);
+	   
+	   msg = obj.nextLine();
+	   System.out.println("My name is : "+msg);
+	}
+}
