@@ -127,6 +127,16 @@ public class main {
         System.out.printf("%.2f",input);}
 }
 13)import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	Scanner obj=new Scanner(System.in);
+	int limit=obj.nextInt();
+	for(int i=0;i<limit;i++)
+		System.out.println("fazzz");
+	}
+}
+13)import java.util.Scanner;
 public class main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
