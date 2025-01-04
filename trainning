@@ -102,3 +102,11 @@ public class main
        System.out.println("Minimum of "+input1+" and "+input2+" is" +input2);
     }
 }
+6)import java.util.Scanner;
+public class main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double input = scanner.nextDouble();
+        input=input/1.6;
+        System.out.printf("ans="+input);}
+}
