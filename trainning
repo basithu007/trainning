@@ -147,3 +147,14 @@ public class main {
            System.out.print("the yaer is not leap year");
     }
 }
+15)import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	Scanner obj=new Scanner(System.in);
+	int limit=obj.nextInt();
+	for(int i=0;i<limit;i++)
+    if(i%2==0)
+      System.out.print(i);
+	}
+}
