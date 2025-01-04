@@ -126,3 +126,14 @@ public class main {
         input=input* 0.08333 ;
         System.out.printf("%.2f",input);}
 }
+13)import java.util.Scanner;
+public class main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int input = scanner.nextInt();
+        if(input%4==0 && input%400==0)
+           System.out.print("the year is leap year");
+        else
+           System.out.print("the yaer is not leap year");
+    }
+}
