@@ -89,3 +89,16 @@ public class Main
 	   System.out.println("My name is : "+msg);
 	}
 }
+5)import java.util.Scanner;
+public class main
+{
+    public static void main(String[] args) {
+    Scanner obj= new Scanner(System.in);
+    float input1=obj.nextFloat();
+    float input2=obj.nextFloat();
+    if(input1<input2)
+       System.out.println("Minimum of "+input1+" and "+input2+" is "+input1);
+    else
+       System.out.println("Minimum of "+input1+" and "+input2+" is" +input2);
+    }
+}
