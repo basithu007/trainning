@@ -180,3 +180,19 @@ public class Main
 		   
 	}
 }
+17)import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner obj=new Scanner(System.in);
+	    int input1=obj.nextInt();
+	    int input2=obj.nextInt();
+	    int input3=obj.nextInt();
+	    int input4=obj.nextInt();
+	    if((input1>21 && input1<=60) && input2>18 && input3<=4 && input4>=300000)
+	       System.out.print("yes.you are eligible for SBI credit card");
+	    else
+	       System.out.print("No.you are not eligible for SBI credit card");
+	       
+	}
+}
