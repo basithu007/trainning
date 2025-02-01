@@ -196,3 +196,20 @@ public class Main
 	       
 	}
 }
+18)import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner obj=new Scanner(System.in);
+	    int input1=obj.nextInt();
+	    int input2=obj.nextInt();
+	    int input3=obj.nextInt();
+	    if((input1==input2) && (input2==input3) && (input1==input3))
+	       System.out.print("Equilateral Triangle");
+	    else if((input1==input2) || (input2==input3) || (input1==input3))
+	       System.out.print("Isosceles Triangle");
+	    else
+	       System.out.print("Scalene Triangle");
+	       
+	}
+}
